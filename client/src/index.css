@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-shell: #11141C;
+  --color-shell-panel: #1B202E;
+  --color-shell-border: #232838;
+  --color-cream: #F3EEE1;
+  --color-cream-row: #E9E2D0;
+  --color-accent: #2F6FED;
+  --color-accent-soft: #2F6FED18;
+
+  --color-text-onCream: #211F17;
+  --color-text-onCreamMuted: #7A7460;
+  --color-text-onDark: #F3EEE1;
+  --color-text-onDarkMuted: #8E8877;
+
+  --font-display: "Rajdhani", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@utility clip-hud {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
